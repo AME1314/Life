@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyPaint - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zzzzh\AppData\Local\Temp\RSP5A9F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyPaint.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MyPaint\MyPaint.cpp"
+"D:\MyPaint\MyPaintView.cpp"
+]
+Creating command line "cl.exe @C:\Users\zzzzh\AppData\Local\Temp\RSP5A9F.tmp" 
+Creating temporary file "C:\Users\zzzzh\AppData\Local\Temp\RSP5AA0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyPaint.pdb" /debug /machine:I386 /out:"Debug/MyPaint.exe" /pdbtype:sept 
+.\Debug\Circle.obj
+.\Debug\Line.obj
+.\Debug\MainFrm.obj
+.\Debug\MyPaint.obj
+.\Debug\MyPaintDoc.obj
+.\Debug\MyPaintView.obj
+.\Debug\P2.obj
+.\Debug\RGB.obj
+.\Debug\StdAfx.obj
+.\Debug\MyPaint.res
+.\Debug\FillColor.obj
+]
+Creating command line "link.exe @C:\Users\zzzzh\AppData\Local\Temp\RSP5AA0.tmp"
+<h3>Output Window</h3>
+Compiling...
+MyPaintView.cpp
+Generating Code...
+Compiling...
+MyPaint.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyPaint.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
